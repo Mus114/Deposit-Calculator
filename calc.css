@@ -1,0 +1,51 @@
+*{
+    font-family: 'Calibri', sans-serif
+}
+ 
+  table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+td,th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+th {
+  font-weight: bold;
+  background-color: #fff6ce;
+}
+#dark {
+    -webkit-text-stroke: 0.015px black;
+    color: #FEFE22
+  }
+  /* Депозитный калькулятор */
+  #dark table, td, tr, th {
+    text-align: left;
+    border: none;
+  }
+  #dark th {
+    background-color: transparent;
+  
+  }
+  h1 {
+    text-align: center;
+    
+  }
+  #diagram td {
+    vertical-align: bottom;
+    text-align: center;
+    padding: 10px;
+  }
+  #diagram div {
+    margin: auto;
+  }
+  #dark .d-flex {
+    height: 200px;
+  }
+  .d-flex {
+    display: flex;
+    align-items: center;
+  }
